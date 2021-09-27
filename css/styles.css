@@ -150,3 +150,21 @@ section {
     bottom: 20px;
     transform: scale(0.6);
 }
+
+@media(max-width: 1068px) {
+    .home-img {
+        display: none;
+    }
+    .logo {
+        top: 10px;
+        left: 40px;
+        font-size: 1.7rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    section {
+        padding: 100px 40px;
+    }
+}
